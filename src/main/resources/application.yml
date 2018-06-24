@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/qbm
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+  data:
+    elasticsearch:
+      cluster-nodes: 127.0.0.1:9300
+#  data:
+#    elasticsearch:
+#      cluster-name: elasticsearch
+#      cluster-nodes: 127.0.0.1:9200
+#      repositories:
+#        enabled: true
+
